@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<title>Hello World!</title>
+	</head>
+	<body>
+		<div id="content">
+			<div id="titlebar">
+
+				Corona Status in United Kingdom <span id="exit"></span>
+
+			</div>
+			<div id="mainbody">
+
+				<div id="stats">
+					<div id="totalcases" class="col_three">
+						<span>&#11044;</span> Total Cases <br>
+						<span id="data_total">0</span>
+					</div>
+					<div id="recovered" class="col_three">
+						<span>&#11044;</span> Recovered <br>
+						<span id="data_recovered">0</span>
+					</div>
+					<div id="deaths" class="col_three">
+						<span>&#11044;</span> Deaths <br>
+						<span id="data_deaths">0</span>
+					</div>
+				</div>
+
+				<div id="footer">
+					<div id="today">Total <span id="data_today">0</span> new cases confirmed in United Kingdom.</div>
+					<div id="refresh">&#8635;</div>
+				</div>
+
+			</div>
+		</div>
+		<script>window.$ = window.jQuery = require('jquery');</script>
+		<script src="./renderer.js"></script>
+	</body>
+</html>

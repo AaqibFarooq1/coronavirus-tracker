@@ -1,0 +1,81 @@
+body {
+	color: #FFF;
+}
+
+#content {
+	background: #151515;
+	border-radius: 20px;
+}
+
+#titlebar {
+	background: #3E3E3E;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	padding: 20px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	-webkit-user-select: none;
+	-webkit-app-region: drag;
+}
+
+#mainbody {
+	font-family: 'Roboto', sans-serif;
+}
+
+.col_three {
+	float: left;
+	width: 33.33%;
+}
+
+#mainbody:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#stats {
+	padding-top: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+	text-align: center;
+}
+
+#totalcases span:first-child {
+	color: #EDEDED;
+}
+
+#recovered span:first-child {
+	color: #7DFF7E;
+}
+
+#deaths span:first-child  {
+	color: #FF4949;
+}
+
+#today {
+	margin-top: 55px;
+	text-align: center;
+	float: left;
+	width: 92%;
+}
+
+#footer.after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+#refresh {
+	margin-top: 55px;
+	transform: rotate(90deg);
+	font-size: 30px;
+	font-weight: bold;
+	float: left;
+	width: 8%;
+}
+
+#refresh:hover {
+	cursor: pointer;
+}
